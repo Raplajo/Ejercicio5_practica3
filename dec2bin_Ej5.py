@@ -13,7 +13,7 @@ if __name__ == "__main__":
     numero_decimal = int(input("Escribe el número en decimal que quieres convertir: "))
     numero_bits = int(input("Cuantos bits tendrá el número binario: "))
 
-    # se llama a la función dec2bin() para hacer la conversión
+    # lol
     numero_binario = dec2bin(numero_decimal, numero_bits)
 
     print("El numero " + str(numero_decimal) + " es " + numero_binario + " en binario con " + str(numero_bits) + " bits.")
